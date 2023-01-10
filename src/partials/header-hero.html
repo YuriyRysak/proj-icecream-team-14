@@ -1,0 +1,441 @@
+<header class="header__origin">
+  <div class="header__container container">
+    <nav class="navigation">
+      <a href="./index.html" class="navigation__logo link">
+        <picture>
+          <source
+            srcset="
+              ./images/header-hero/desk-logo.png    1x,
+              ./images/header-hero/desk-logo@2x.png 2x
+            "
+            media="(min-width:1200px)"
+            type="image/png"
+          />
+          <source
+            srcset="
+              ./images/header-hero/tab-logo.png    1x,
+              ./images/header-hero/tab-logo@2x.png 2x
+            "
+            media="(min-width:768px)"
+            type="image/png"
+          />
+          <source
+            srcset="
+              ./images/header-hero/mob-logo.png    1x,
+              ./images/header-hero/mob-logo@2x.png 2x
+            "
+            media="(max-width:767px)"
+            type="image/png"
+          />
+          <img
+            src="./images/header-hero/mob-logo.png"
+            alt="logo"
+            width="40"
+            height="37"
+          />
+        </picture>
+      </a>
+      <button
+        type="button"
+        class="navigation__button-openmenu"
+        data-menu-open-header
+        aria-expanded="false"
+      >
+        <svg width="32" height="32">
+          <use
+            class="navigation__menu-open"
+            href="./images/icons.svg#icon-open-menu"
+          ></use>
+        </svg>
+      </button>
+
+      <div class="navigation__lists" data-menu-header>
+        <button
+          type="button"
+          class="navigation__button-closemenu"
+          data-menu-close-header
+          aria-expanded="false"
+        >
+          <svg width="32" height="32">
+            <use
+              class="navigation__menu-close"
+              href="./images/icons.svg#icon-close-menu"
+            ></use>
+          </svg>
+        </button>
+        <a href="./index.html" class="navigation__logo-menu link">
+          <picture>
+            <source
+              srcset="
+                ./images/header-hero/tab-logo.png    1x,
+                ./images/header-hero/tab-logo@2x.png 2x
+              "
+              media="(min-width:768px)"
+              type="image/png"
+            />
+            <source
+              srcset="
+                ./images/header-hero/mob-logo.png    1x,
+                ./images/header-hero/mob-logo@2x.png 2x
+              "
+              media="(max-width:767px)"
+              type="image/png"
+            />
+            <img
+              src="./images/header-hero/mob-logo.png"
+              alt="logo"
+              width="40"
+              height="37"
+            />
+          </picture>
+        </a>
+        <ul class="navigation__list list">
+          <li class="navigation__item">
+            <a href="./index.html" class="navigation__link link">Home</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#tocreation" class="navigation__button-specification link"
+              >How it&#8217;s made?</a
+            >
+            <a
+              href="#tocreation"
+              class="navigation__button-specification-desk link"
+              >How it&#8217;s made?</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#toproducts" class="navigation__link link">Our products</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#tocontacts" class="navigation__link link">Contact</a>
+          </li>
+        </ul>
+        <button
+          type="button"
+          class="navigation__button-purchase"
+          data-modal-open-header
+        >
+          Buy now<svg width="12" height="12" class="navigation__button-arrow">
+            <use href="./images/icons.svg#icon-arrow-right"></use>
+          </svg>
+        </button>
+      </div>
+    </nav>
+    <button
+      type="button"
+      class="navigation__button-header-purchase"
+      data-modal-open-headers
+    >
+      Buy now<svg width="12" height="12" class="navigation__button-arrow">
+        <use href="./images/icons.svg#icon-arrow-right"></use>
+      </svg>
+    </button>
+  </div>
+</header>
+<main>
+  <section class="hero">
+    <div class="hero__container container">
+      <div class="hero__box">
+        <h1 class="hero__title no-style">
+          ice cream made with
+          <span class="hero__title-mofified">passion</span>
+        </h1>
+        <div class="hero__links">
+          <a href="#toproducts" class="hero__products link">Products</a>
+          <a href="#tocreation" class="hero__button-specification link"
+            >How it&#8217;s made?</a
+          >
+        </div>
+      </div>
+      <picture>
+        <source
+          srcset="
+            ./images/header-hero/desk-hero.png    1x,
+            ./images/header-hero/desk-hero@2x.png 2x
+          "
+          media="(min-width:1200px)"
+          type="image/png"
+        />
+        <source
+          srcset="
+            ./images/header-hero/tab-hero.png    1x,
+            ./images/header-hero/tab-hero@2x.png 2x
+          "
+          media="(min-width:768px)"
+          type="image/png"
+        />
+        <source
+          srcset="
+            ./images/header-hero/mob-hero.png    1x,
+            ./images/header-hero/mob-hero@2x.png 2x
+          "
+          media="(max-width:767px)"
+          type="image/png"
+        />
+        <img
+          class="hero__image"
+          src="./images/header-hero/mob-hero.png"
+          alt="ice-cream"
+        />
+      </picture>
+      <picture>
+        <source
+          srcset="
+            ./images/header-hero/desk-heroback.png    1x,
+            ./images/header-hero/desk-heroback@2x.png 2x
+          "
+          media="(min-width:1200px)"
+          type="image/png"
+        />
+        <source
+          srcset="
+            ./images/header-hero/tab-heroback.png    1x,
+            ./images/header-hero/tab-heroback@2x.png 2x
+          "
+          media="(min-width:768px)"
+          type="image/png"
+        />
+        <source
+          srcset="
+            ./images/header-hero/mob-heroback.png    1x,
+            ./images/header-hero/mob-heroback@2x.png 2x
+          "
+          media="(max-width:767px)"
+          type="image/png"
+        />
+        <img
+          class="hero__imageback"
+          src="./images/header-hero/mob-heroback.png"
+          alt="background"
+        />
+      </picture>
+      <picture>
+        <source
+          srcset="
+            ./images/header-hero/desk-icecreams.png    1x,
+            ./images/header-hero/desk-icecreams@2x.png 2x
+          "
+          media="(min-width:1200px)"
+          type="image/png"
+        />
+        <source
+          srcset="
+            ./images/header-hero/tab-icecreams.png    1x,
+            ./images/header-hero/tab-icecreams@2x.png 2x
+          "
+          media="(min-width:768px)"
+          type="image/png"
+        />
+        <img
+          class="hero__icecreams"
+          src="./images/header-hero/tab-icecreams.png"
+          alt="ice creams"
+        />
+      </picture>
+      <div class="hero__additional">
+        <p class="hero__additional-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et
+        </p>
+        <a href="#toinform" class="hero__additional-link">
+          <svg class="hero__additional-icon" width="40" height="18">
+            <use href="./images/icons.svg#icon-arrowtoright"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="hero__structure">
+        <p class="hero__structure-text">
+          <span class="hero__structure-text--number">16</span>cafes
+        </p>
+        <p class="hero__structure-text">
+          <span class="hero__structure-text--number">23</span>food trucks
+        </p>
+      </div>
+    </div>
+
+    <!-- HERO MODAL -->
+
+    <div class="backdrop is-hidden" data-modal-header data-modal-headers>
+      <div class="header-modal">
+        <div>
+          <button
+            type="button"
+            class="header-modal__close"
+            data-modal-close-head
+          >
+            <svg
+              class="header-modal__svg icon-close-btn"
+              width="16"
+              height="16"
+            >
+              <use href="./images/icons.svg#icon-modal-close"></use>
+            </svg>
+          </button>
+        </div>
+        <h3 class="header-modal__subtitle">Buy now</h3>
+        <ul class="header-modal__product">
+          <li class="header-modal__list list">
+            <div class="header-modal__ice-cream">
+              <input
+                type="radio"
+                name="view"
+                id="ice-cream"
+                class="header-modal__icecream-input is-hidden"
+                checked="checked"
+              />
+              <label for="ice-cream" class="header-modal__text-icecream"
+                >ice cream</label
+              >
+            </div>
+            <div class="header-modal__ball-icecream"></div>
+            <picture class="header-modal__img-icecream">
+              <source
+                srcset="
+                  ./images/header-modal/desktop-icecream.png    1x,
+                  ./images/header-modal/desktop-icecream-x2.png 2x
+                "
+                media="(min-width:1200px)"
+              />
+              <source
+                srcset="
+                  ./images/header-modal/mob-icecream.png    1x,
+                  ./images/header-modal/mob-icecream-x2.png 2x
+                "
+                media="(min-width:768px)"
+              />
+              <source
+                srcset="
+                  ./images/header-modal/mob-icecream.png    1x,
+                  ./images/header-modal/mob-icecream-x2.png 2x
+                "
+                media="(min-width:320px)"
+              />
+              <img
+                src="./images/header-modal/mob-icecream.png"
+                alt="Ice Cream"
+                width="132"
+                height="132"
+              />
+            </picture>
+          </li>
+          <li class="header-modal__list list">
+            <div class="header-modal__ice-coffee">
+              <input
+                type="radio"
+                name="view"
+                id="ice-coffee"
+                class="header-modal__icecoffee-input is-hidden"
+                checked="checked"
+              />
+              <label for="ice-coffee" class="header-modal__text-icecoffee"
+                >ice coffee</label
+              >
+            </div>
+            <div class="header-modal__ball-icecoffee"></div>
+            <picture class="header-modal__img-icecoffee">
+              <source
+                srcset="
+                  ./images/header-modal/desktop-icecoffee.png    1x,
+                  ./images/header-modal/desktop-icecoffee-x2.png 2x
+                "
+                media="(min-width:1200px)"
+              />
+              <source
+                srcset="
+                  ./images/header-modal/mob-icecoffee.png    1x,
+                  ./images/header-modal/mob-icecoffee-x2.png 2x
+                "
+                media="(min-width:768px)"
+              />
+              <source
+                srcset="
+                  ./images/header-modal/mob-icecoffee.png    1x,
+                  ./images/header-modal/mob-icecoffee-x2.png 2x
+                "
+                media="(min-width:320px)"
+              />
+              <img
+                src="./images/header-modal/mob-icecoffee.png"
+                alt="Ice Coffee"
+                width="132"
+                height="132"
+              />
+            </picture>
+          </li>
+          <li class="header-modal__list list">
+            <div class="header-modal__milkshake">
+              <input
+                type="radio"
+                name="view"
+                id="milkshake"
+                class="header-modal__milkshake-input is-hidden"
+                checked="checked"
+              />
+              <label for="milkshake" class="header-modal__text-milkshake"
+                >milkshake</label
+              >
+            </div>
+            <div class="header-modal__ball-milkshake"></div>
+            <picture class="header-modal__img-milkshake">
+              <source
+                srcset="
+                  ./images/header-modal/desktop-milkshake.png    1x,
+                  ./images/header-modal/desktop-milkshake-x2.png 2x
+                "
+                media="(min-width:1200px)"
+              />
+              <source
+                srcset="
+                  ./images/header-modal/mob-milkshake.png    1x,
+                  ./images/header-modal/mob-milkshake-2x.png 2x
+                "
+                media="(min-width:768px)"
+              />
+              <source
+                srcset="
+                  ./images/header-modal/mob-milkshake.png    1x,
+                  ./images/header-modal/mob-milkshake-2x.png 2x
+                "
+                media="(min-width:320px)"
+              />
+              <img
+                src="./images/header-modal/mob-milkshake.png"
+                alt="Milkshake"
+                width="132"
+                height="132"
+              />
+            </picture>
+          </li>
+        </ul>
+        <form class="header-modal__form">
+          <input
+            type="text"
+            class="header-modal__input"
+            placeholder="Name"
+            required
+            pattern="[a-z]{1,40}"
+          />
+          <input
+            type="tel"
+            class="header-modal__input"
+            placeholder="Phone"
+            required
+            pattern="[0-9]{1,13}"
+          />
+          <textarea
+            name="comment"
+            cols="30"
+            class="header-modal__area"
+            rows="10"
+            placeholder="Comment"
+          ></textarea>
+          <button type="submit" class="header-modal__btn">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <script src="./js/header-menu.js"></script>
+  <script src="./js/modalheader.js"></script>
+  <script src="./js/header-menu.js"></script>
+  <script src="./js/modalheader.js"></script>
+</main>

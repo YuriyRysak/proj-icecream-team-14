@@ -1,0 +1,42 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: url('../images/header-hero/cursor.cur'), auto;
+  border: none;
+  margin: none;
+}
+
+address {
+  font-style: normal;
+}
+
+.backdrop {
+  z-index: 10;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}

@@ -1,0 +1,14 @@
+.btn {
+  border-width: none;
+  border-style: none;
+  background-color: transparent;
+}
+
+.icon-close-btn {
+  transition: fill 250ms;
+
+  &:hover,
+  &:focus {
+    fill: orange;
+  }
+}

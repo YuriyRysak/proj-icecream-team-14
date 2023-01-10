@@ -1,0 +1,106 @@
+<!-- Swiper -->
+<section class="gallery-customer customer-overlay">
+  <div class="container container-customer">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img
+            class="swiper-slide__icon"
+            srcset="/src/images/cr/Emily.jpg 1x, 
+                    /src/images/cr/Emily-2.jpg 2x"
+            src="/src/images/cr/Emily.jpg"  
+
+            alt="Emily"
+            width="85"
+            height="85"
+          />
+          <p class="swiper-slide__text">
+            I love visiting your cafe. You prepare the most delicious ice cream
+            in Los Angeles! In addition, you have beautiful serving, cozy
+            atmosphere and polite staff.
+          </p>
+          <h2 class="swiper-slide__name">Emily, Los Angeles</h2>
+        </div>
+        <div class="swiper-slide">
+          <img
+            class="swiper-slide__icon"
+            srcset="/src/images/cr/Sam.jpg 1x, 
+                    /src/images/cr/Sam-2.jpg 2x"
+            src="/src/images/cr/Sam.jpg"
+
+            alt="Sam"
+            width="85"
+            height="85"
+          />
+          <p class="swiper-slide__text">
+            I love eating popsicles on a hot day. Yours is always delicious. I
+            recommend your cafe to everyone I know.
+          </p>
+          <h2 class="swiper-slide__name">Sam, Los Angeles</h2>
+        </div>
+        <div class="swiper-slide">
+          <img
+            class="swiper-slide__icon"
+            srcset="/src/images/cr/Diana.jpg 1x, 
+                    /src/images/cr/Diana-2.jpg 2x"
+            src="/src/images/cr/Diana.jpg"
+
+            alt="Diana"
+            width="85"
+            height="85"
+          />
+          <p class="swiper-slide__text">
+            Ice cream is my passion! I love your chocolate hazelnut ice cream!
+            And I really like the excellent service - always served politely and
+            quickly!
+          </p>
+          <h2 class="swiper-slide__name">Diana, Chicago</h2>
+        </div>
+        <div class="swiper-slide">
+          <img
+            class="swiper-slide__icon"
+            srcset="/src/images/cr/Bryan.jpg 1x, 
+                    /src/images/cr/Bryan-2.jpg 2x"
+            src="/src/images/cr/Bryan.jpg"
+
+            alt="Brayan"
+            width="85"
+            height="85"
+          />
+          <p class="swiper-slide__text">
+            Every day we come to you with friends after classes in college. We
+            love your ice cream and casual atmosphere!
+          </p>
+          <h2 class="swiper-slide__name">Bryan, New-York</h2>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  });
+</script>

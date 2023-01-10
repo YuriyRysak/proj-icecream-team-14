@@ -1,0 +1,145 @@
+.franchise {
+  display: flex;
+  flex-direction: column;
+  z-index: 5;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  min-height: 674px;
+  min-width: 280px;
+  padding: 28px;
+
+  background-color: #fcfcfc;
+  border: 2px solid #f8d24e;
+  border-radius: 10px;
+
+  @include largerThanMobile {
+    width: 568px;
+    height: 668px;
+    padding: 30px 58px;
+  }
+
+  &__btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 16px;
+    height: 16px;
+    background-color: transparent;
+    cursor: pointer;
+
+    @include largerThanMobile {
+      top: 25px;
+      right: 25px;
+    }
+  }
+
+  &__icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    @include largerThanMobile {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  &__title {
+    font-family: 'Seymour One';
+    @include font(400, 16, 1.5, 0.02);
+
+    text-align: center;
+    align-items: center;
+    color: #131313;
+    margin-bottom: 20px;
+
+    @include largerThanMobile {
+      width: 332px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 24px;
+      @include font(400, 20, 1.4, 0.02);
+    }
+  }
+
+  &__text {
+    @include font(400, 14, 1.4, 0.02);
+    color: #131313;
+    margin-bottom: 24px;
+
+    @include largerThanMobile {
+      @include font(400, 16, 1.4, 0);
+      margin-bottom: 32px;
+    }
+  }
+
+  &__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__input {
+    background-color: rgba(248, 210, 78, 0.1);
+    border: 1px solid #84a178;
+    border-radius: 10px;
+    padding: 8px 0px 8px 12px;
+    margin-bottom: 12px;
+
+    @include font(400, 12, 1.41, 0.02);
+    color: #131313;
+
+    @include largerThanMobile {
+      width: 368px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 16px;
+      padding: 11px 0px 11px 16px;
+    }
+  }
+
+  &__feedback {
+    background: rgba(248, 210, 78, 0.1);
+    border: 1px solid #84a178;
+    border-radius: 10px;
+    resize: none;
+    width: 100%;
+    padding: 8px 0px 39px 12px;
+    margin-bottom: 24px;
+
+    @include font(400, 12, 1.41, 0.02);
+    color: #131313;
+
+    @include largerThanMobile {
+      width: 368px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 32px;
+    }
+  }
+
+  &__send-btn {
+    margin-left: auto;
+    margin-right: auto;
+
+    @include font(600, 12, 1.25, 0.02);
+    color: #131313;
+
+    background-color: #f8d24e;
+    border-radius: 10px;
+    padding: 12px 34px;
+    cursor: pointer;
+    border-color: transparent;
+  }
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
